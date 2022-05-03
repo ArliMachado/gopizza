@@ -8,7 +8,7 @@ import { StatusBar } from 'expo-status-bar';
 import { Text } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import { ThemeProvider } from 'styled-components/native';
-import theme from '@src/theme';
+import theme from './src/theme';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
